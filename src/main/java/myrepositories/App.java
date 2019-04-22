@@ -4,11 +4,13 @@
 package myrepositories;
 
 public class App {
-    public String getGreeting() {
-        return "Hello world.";
+
+   
+    public static void main(String arg[]) {
+  
+  
+        // Prints "Hello, World" to the terminal window.
+        System.out.println("Hello, World");
     }
 
-    public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
-    }
 }
